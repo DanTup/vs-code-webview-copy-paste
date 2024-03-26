@@ -21,6 +21,8 @@ export async function activate(context: vs.ExtensionContext) {
 			<body bgcolor="#999999">
 				<h1>Inner Frame Content</h1>
 
+				Try to use Cmd+A to Select All, Cmd+C to copy, Cmd+V to paste. None
+
 				<input type="text" width="400" />
 			</body>
 			</html>
@@ -51,7 +53,7 @@ export async function activate(context: vs.ExtensionContext) {
 			</head>
 			<body bgcolor="#666666">
 				<h1>WebView HTML Content</h1>
-				<iframe id="myFrame" src="http://localhost:3000/" frameborder="0" width="600" height="600" allow2222="clipboard-read; clipboard-write"></iframe>
+				<iframe id="myFrame" src="http://localhost:3000/" frameborder="0" width="600" height="600"></iframe>
 			</body>
 			</html>
 			`;
